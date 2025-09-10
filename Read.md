@@ -2,7 +2,7 @@
 
 ## Getting Started
 This project is a starting point for a Web application.
-- [프로젝트 메인 주소](https://github.com/rlatjdnws/SPRING_BOOTS_20230975/)
+- [프로젝트 메인 주소](https://github.com/rlatjdnws/SPRING_BOOTS)
 
 ## 2주차 수업 요약
 1. 실습내용 - 자바 환경 설정
