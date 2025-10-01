@@ -1,6 +1,9 @@
-package com.example.demo;
+package com.example.demo.controller;
 
-import com.example.demo.model.service.Testservice;
+import com.example.demo.model.domain.TestDB;
+import com.example.demo.model.service.TestService;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class DemoController{
      // 클래스 하단 작성
     @Autowired
-    Testservice testService; // DemoController 클래스 아래 객체 생성
+    TestService testService; // DemoController 클래스 아래 객체 생성
 
     @GetMapping("/hello") // 전송 방식 GET
     public String hello(Model model) {
