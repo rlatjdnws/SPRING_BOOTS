@@ -23,16 +23,16 @@ This project is a starting point for a Web application.
                  herf="/about_detailed"로 맵핑된 웹페이지
 
 ## 4주차 수업 요약
-1. 실습내용 - 
-2. 응용문제 - 
-3. 수정내용 - 
-4. 소스코드정리 - 
+1. 실습내용 - 데이터베이스 연동, mysql를 통해 데이터베이스 생성
+2. 응용문제 - testdb에 INSERT를 이용하여 사용자 추가
+3. 수정내용 - testdb 관련 데이터베이스 테스트 
+4. 소스코드정리 - MySQL: create databases 이름;
 
 ## 5주차 수업 요약
-1. 실습내용 - 
+1. 실습내용 - 포트폴리오 화면에 데이터베이스 연동
 2. 응용문제 - 
 3. 수정내용 - 
-4. 소스코드정리 - 
+4. 소스코드정리 - th:each(데이터베이스 값 가져옴) / 데이터 생성:PostMapping
 
 ## 6주차 수업 요약
 1. 실습내용 - 
