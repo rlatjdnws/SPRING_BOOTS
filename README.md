@@ -35,10 +35,7 @@ This project is a starting point for a Web application.
 4. 소스코드정리 - th:each(데이터베이스 값 가져옴) / 데이터 생성:PostMapping
 
 ## 6주차 수업 요약
-1. 실습내용 - 
-2. 응용문제 - 
-3. 수정내용 - 
-4. 소스코드정리 - 
+추석
 
 ## 7주차 수업 요약
 1. 실습내용 - 
