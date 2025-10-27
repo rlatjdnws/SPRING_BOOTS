@@ -22,6 +22,16 @@ public class DemoController{
            return "hello"; // hello.html 연결
     }
 
+    @GetMapping("/hello2")
+    public String hello2(Model model) {
+        model.addAttribute("name", "홍길동님"); // model 설정
+        model.addAttribute("phone", "010-1234-5678");
+        model.addAttribute("today", "2024-06-01");
+        model.addAttribute("time", "10:30 AM");
+        model.addAttribute("message", "스프링 부트와 타임리프 연동 성공!");
+           return "hello2"; // hello2.html 연결
+    }
+
     @GetMapping("/about_detailed")
     public String about() {
         return "about_detailed"; // about_detailed.html 연결

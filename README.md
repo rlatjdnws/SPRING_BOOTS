@@ -6,7 +6,7 @@ This project is a starting point for a Web application.
 
 ## 2주차 수업 요약
 1. 실습내용 - 자바 환경 설정, 어노테이션 활성화
-2. 응용문제 - 두번째 hello 페이지 추가, 맵핑 추가, 속성 변수 출력(미완)
+2. 응용문제 - 두번째 hello 페이지 추가, 맵핑 추가, 속성 변수 출력(완료)
 3. 수정내용 - pom.xml의 starter-data-jpa, mysql-connector-j 주석처리 / @GetMapping을 통한 맵핑
 4. 소스코드정리 - @GetMapping("/hello") // 전송 방식 GET
                      public String hello(Model model) {
