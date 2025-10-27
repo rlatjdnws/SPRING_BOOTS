@@ -1,3 +1,12 @@
+function confirmClose() {
+        if (confirm("정말로 이 창을 닫으시겠습니까?")) {
+            window.close();
+            // 만약 window.close()가 작동하지 않으면 (일반 탭인 경우)
+            // 메인 페이지로 이동
+            window.location.href = '/';
+        }
+    }
+    
 (function ($) {
     "use strict";
 

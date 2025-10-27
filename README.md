@@ -17,7 +17,7 @@ This project is a starting point for a Web application.
 
 ## 3주차 수업 요약
 1. 실습내용 - 포트폴리오 템플릿 적용, 개인 포트폴리오 작성
-2. 응용문제 - 상세소개 되돌아가기 버튼, main.js에 confirmClose() 함수 추가(미완)
+2. 응용문제 - 상세소개 되돌아가기 버튼, main.js에 confirmClose() 함수 추가(완료)
 3. 수정내용 - 상세소개 버튼 맵핑으로 활성화 about_detailed.html 개별 페이지 작성
 4. 소스코드정리 - <a class="btn btn-primary py-3 px-5 mt-3" href="/about_detailed" target="_blank">상세 소개</a> 
                  herf="/about_detailed"로 맵핑된 웹페이지
