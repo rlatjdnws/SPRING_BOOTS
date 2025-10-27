@@ -24,7 +24,7 @@ This project is a starting point for a Web application.
 
 ## 4주차 수업 요약
 1. 실습내용 - 데이터베이스 연동, mysql를 통해 데이터베이스 생성
-2. 응용문제 - testdb에 INSERT를 이용하여 사용자 추가
+2. 응용문제 - testdb에 INSERT를 이용하여 사용자 추가(미완)
 3. 수정내용 - testdb 관련 데이터베이스 테스트 
 4. 소스코드정리 - MySQL: create databases 이름;
 
