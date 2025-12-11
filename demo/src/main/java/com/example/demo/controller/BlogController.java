@@ -57,10 +57,22 @@ public class BlogController{
         return "redirect:/article_list"; // 글 수정 이후 .html 연결
     }
 
+     @PutMapping("/api/board_edit/{id}")
+    public String updateBoard(@PathVariable Long id, @ModelAttribute AddArticleRequest request) {
+        blogService.update(id, request);
+        return "redirect:/board_list"; // 글 수정 이후 .html 연결
+    }
+
     @DeleteMapping("/api/article_delete/{id}")
     public String deleteArticle(@PathVariable Long id) {
         blogService.deleteById(id);
         return "redirect:/article_list";
+    }
+
+    @DeleteMapping("/api/board_delete/{id}")
+    public String deleteBoard(@PathVariable Long id) {
+        blogService.deleteById(id);
+        return "redirect:/board_list";
     }
 
     // @GetMapping("/board_list") // 새로운 게시판 링크 지정
@@ -104,7 +116,11 @@ public class BlogController{
 
             System.out.println("세션 userId: " + userId); // 서버 IDE 터미널에 세션 값 출력
 
-            PageRequest pageable = PageRequest.of(page, 3); // 한 페이지의 게시글 수
+            // PageRequest pageable = PageRequest.of(page, 3); // 한 페이지의 게시글 수
+            
+            int pageSize = 4; // 한 페이지의 게시글 수
+            PageRequest pageable = PageRequest.of(page, pageSize);
+
             Page<Board> list; // Page를 반환
 
             if (keyword.isEmpty()) {
